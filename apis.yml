@@ -1,9 +1,26 @@
 aid: melon-digital-insurance
 name: Melon Digital Insurance
-description: Melon Digital Insurance is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Melon is a digital-first insurance agency based in Saudi Arabia, building modern
+  Insurtech products for individuals across the Kingdom. The company has received preliminary
+  approval from the Saudi Insurance Authority (IA) to operate as a digital insurance agency,
+  with final licensing pending, and is currently pre-launch ("launching soon"). Melon uses
+  technology and AI to deliver transparent, fair pricing, simple policies, and a seamless,
+  fully digital customer experience. It is backed by 500 Global. As of this enrichment pass,
+  Melon publishes only a marketing landing page (melon.sa) with no public developer portal,
+  API documentation, or machine-readable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/melon-digital-insurance/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://melon.sa/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Digital Insurance
+- Saudi Arabia
+- Fintech
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/melon-digital-insurance-domain-security.yml
 - type: Website
   url: https://melon.sa
+- type: LinkedIn
+  url: https://www.linkedin.com/company/melon-digital-insurance/
+- type: Twitter
+  url: https://x.com/MelonDigitalSA
+- type: Instagram
+  url: https://www.instagram.com/melonsaudi/
+- type: Email
+  url: mailto:info@melon.sa
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
